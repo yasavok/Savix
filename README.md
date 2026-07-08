@@ -1,56 +1,66 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/logo.png">
-    <img src="assets/logo.png" width="100" alt="Savix">
-  </picture>
-</p>
+<div align="center">
+  <img src="assets/logo.png" width="110" alt="Savix">
+  <h1>Savix</h1>
+  <p><strong>Премиальный VPN-клиент на базе Sing-box</strong></p>
+  <p>Минималистичный дизайн. Мощное ядро. Полный контроль.</p>
 
-<h1 align="center">Savix</h1>
-
-<p align="center">
-  <strong>Премиальный VPN-клиент на базе Sing-box</strong>
-  <br>
-  Минималистичный дизайн. Максимальная производительность. Полный контроль.
-</p>
-
-<p align="center">
   <a href="https://github.com/yasavok/Savix/releases/latest">
-    <img src="https://img.shields.io/badge/Скачать-установщик-2aabee?style=for-the-badge&logo=windows">
+    <img src="https://img.shields.io/badge/Скачать%20установщик-18181b?style=for-the-badge&logo=windows">
   </a>
   <a href="https://t.me/SavixVPN">
-    <img src="https://img.shields.io/badge/Telegram-канал-2aabee?style=for-the-badge&logo=telegram">
+    <img src="https://img.shields.io/badge/Telegram-канал-18181b?style=for-the-badge&logo=telegram">
   </a>
-</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/версия-0.1.0-18181b?style=flat-square">
-  <img src="https://img.shields.io/badge/ядро-Sing--box-ef4444?style=flat-square">
-  <img src="https://img.shields.io/badge/платформа-Windows-2563eb?style=flat-square">
-</p>
+  <br><br>
+
+  <img src="https://img.shields.io/badge/Версия-0.1.0-3b82f6?style=flat-square">
+  <img src="https://img.shields.io/badge/Ядро-Sing--box-ef4444?style=flat-square">
+  <img src="https://img.shields.io/badge/Платформа-Windows%2010%2F11-22c55e?style=flat-square">
+  <img src="https://img.shields.io/badge/Архитектура-x64-8b5cf6?style=flat-square">
+</div>
 
 ---
+
+## О проекте
+
+Savix — это современный VPN-клиент, объединяющий мощь Sing-box с продуманным интерфейсом. Поддерживает все популярные протоколы, импорт через ссылки и подписки, гибкие настройки маршрутизации и split tunneling.
+
+Просто импортируйте конфигурацию — и защищённое соединение готово за один клик.
 
 ## Возможности
 
-| | |
+| Категория | Что умеет Savix |
 |---|---|
-| **7 протоколов** | VLESS, VMess, Trojan, Shadowsocks, Hysteria2, TUIC, WireGuard |
+| **Протоколы** | VLESS, VMess, Trojan, Shadowsocks, Hysteria2, TUIC, WireGuard |
 | **Импорт** | По ссылке (vless://, vmess://, trojan://, ss://) и через подписки |
-| **Пинг-тест** | Автоматический выбор лучшего сервера по задержке |
-| **Split tunneling** | Настройка маршрутов обхода по доменам и процессам |
-| **Режимы** | Системный туннель (TUN) и системный прокси |
-| **Автоподключение** | Автоматический запуск при старте системы |
-| **Маршрутизация** | Выбор DNS, стека TUN (Mixed/System/gVisor), MTU |
-| **Расширенные** | Multiplex (Mux), уровень логирования ядра |
-| **Темы** | Тёмная и светлая |
-| **Языки** | Русский и английский |
-
----
+| **Пинг-тест** | Автоматический выбор сервера с минимальной задержкой |
+| **Split tunneling** | Обход VPN для указанных доменов и процессов |
+| **Режимы подключения** | Системный туннель (TUN) / Системный прокси |
+| **Маршрутизация** | Настраиваемый DNS, стек TUN (Mixed, System, gVisor), MTU |
+| **Автозапуск** | Автоматическое подключение при старте |
+| **Расширенные** | Multiplex (Mux), уровень логирования ядра (error — trace) |
+| **Интерфейс** | Тёмная и светлая темы, русский и английский язык |
 
 ## Установка
 
-Скачайте последнюю версию в разделе **[Releases](https://github.com/yasavok/Savix/releases)**.
+```
+Windows 10 / 11 (x64)
+Права администратора (для режима TUN)
+```
 
-**Требования:**
-- Windows 10 / 11 (x64)
-- Права администратора (для режима TUN)
+1. Скачайте `Savix.Setup.0.1.0.exe` из [Releases](https://github.com/yasavok/Savix/releases)
+2. Запустите установщик
+3. При необходимости запустите Savix от имени администратора
+
+## Быстрый старт
+
+1. Откройте Savix
+2. Перейдите на вкладку «Серверы»
+3. Импортируйте конфигурацию через ссылку или подписку
+4. Нажмите «Подключить»
+
+Savix сам выберет оптимальные настройки маршрутизации.
+
+## Связь
+
+- Telegram: [@SavixVPN](https://t.me/SavixVPN)
