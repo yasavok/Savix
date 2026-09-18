@@ -14,7 +14,7 @@
   <a href="https://github.com/yasavok/Savix/releases/latest">
     <img src="https://img.shields.io/badge/Скачать-установщик-2aabee?style=for-the-badge&logo=windows">
   </a>
-  <a href="https://t.me/SavixVPN">
+  <a href="https://t.me/SavixDev">
     <img src="https://img.shields.io/badge/Telegram-канал-2aabee?style=for-the-badge&logo=telegram">
   </a>
 </p>
